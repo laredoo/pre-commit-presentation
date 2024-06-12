@@ -9,10 +9,6 @@ if __name__ == "__main__":
         print("Operações disponíveis: + (soma), - (subtração), * (multiplicação), / (divisão)")
         print("Operações booleanas disponíveis: == (igual a), != (diferente de), < (menor que), > (maior que), <= (menor ou igual a), >= (maior ou igual a)")
 
-        option = input("Deseja sair do programa? Sim / Não\n")
-        if option.upper() == "SIM":
-            exit()
-
         num1 = inserir_numero()
         operacao = input("Insira a operação desejada (+, -, *, /, ==, !=, <, >, <=, >=): ")
         
